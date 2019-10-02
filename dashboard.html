@@ -1,0 +1,722 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Campus Ambassador Dashboard</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicon
+		============================================ -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- Google Fonts
+		============================================ -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+    <!-- Bootstrap CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Bootstrap CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- nalika Icon CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/nalika-icon.css">
+    <!-- owl.carousel CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/owl.transitions.css">
+    <!-- animate CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- normalize CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- meanmenu icon CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/meanmenu.min.css">
+    <!-- main CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- morrisjs CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/morrisjs/morris.css">
+    <!-- mCustomScrollbar CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <!-- metisMenu CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/metisMenu/metisMenu.min.css">
+    <link rel="stylesheet" href="css/metisMenu/metisMenu-vertical.css">
+    <!-- calendar CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/calendar/fullcalendar.min.css">
+    <link rel="stylesheet" href="css/calendar/fullcalendar.print.min.css">
+    <!-- style CSS
+		============================================ -->
+    <link rel="stylesheet" href="style.css">
+    <!-- responsive CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- modernizr JS
+		============================================ -->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <div class="left-sidebar-pro">
+        <nav id="sidebar" class="">
+            <div class="sidebar-header">
+                <a href="http://www.e-summit-iitbbs.com/"><img class="main-logo" src="img/logo/logo.png" alt="" /></a>
+                <strong><img src="img/logo/logosn.png" alt="" /></strong>
+            </div>
+			<div class="nalika-profile">
+				<div class="profile-dtl">
+					<a href="#"><img src="img/notification/4.jpg" alt="" /></a>
+					<h2>Lakian</h2>
+                </div>
+			</div>
+            <div class="left-custom-menu-adp-wrap comment-scrollbar">
+                <nav class="sidebar-nav left-sidebar-menu-pro">
+                    <ul class="metismenu" id="menu1">
+                        <li>
+                            <a href="#">
+                                   <i class="icon nalika-home icon-wrap"></i>
+                                   <span class="mini-click-non">Home</span>
+                            </a>
+                        </li>
+
+                        <li>
+                                <a href="#responsibilities" aria-expanded="false"><i class="icon nalika-forms icon-wrap"></i> <span class="mini-click-non">Responsibilities</span></a>
+                        </li>
+
+                        <li>
+                                <a href="#posts" aria-expanded="false"><i class="icon nalika-new-file icon-wrap"></i> <span class="mini-click-non">Posts</span></a>
+                        </li>
+
+                        <li>
+                                <a href="#contactUs" aria-expanded="false"><i class="icon nalika-mail icon-wrap"></i> <span class="mini-click-non">Contact us</span></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Start Welcome area -->
+    <div class="all-content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="logo-pro">
+                        <a href="index.html"><img class="main-logo" src="img/logo/logo.png" alt="" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-advance-area">
+            <div class="header-top-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="header-top-wraper">
+                                <div class="row">
+                                    <div class="col-lg-1 col-md-0 col-sm-1 col-xs-12">
+                                        <div class="menu-switcher-pro">
+                                            <button type="button" id="sidebarCollapse" class="btn bar-button-pro header-drl-controller-btn btn-info navbar-btn">
+													<i class="icon nalika-menu-task"></i>
+												</button>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-lg-6 col-md-7 col-sm-6 col-xs-12">
+                                    </div>
+                                
+                                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                        <div class="header-right-info">
+                                            <ul class="nav navbar-nav mai-top-nav header-right-menu">
+                                                <li class="nav-item"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i class="icon nalika-alarm" aria-hidden="true"></i><span class="indicator-nt"></span></a>
+                                                    <div role="menu" class="notification-author dropdown-menu animated zoomIn">
+                                                        <div class="notification-single-top">
+                                                            <h1>Notifications</h1>
+                                                        </div>
+                                                        <ul class="notification-menu">
+                                                            <li>
+                                                                <a href="#">
+                                                                    <div class="notification-icon">
+                                                                        <i class="icon nalika-tick" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="notification-content">
+                                                                        <span class="notification-date">16 Sept</span>
+                                                                        <h2>Advanda Cro</h2>
+                                                                        <p>Please done this project as soon possible.</p>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <div class="notification-icon">
+                                                                        <i class="icon nalika-cloud" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="notification-content">
+                                                                        <span class="notification-date">16 Sept</span>
+                                                                        <h2>Sulaiman din</h2>
+                                                                        <p>Please done this project as soon possible.</p>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <div class="notification-icon">
+                                                                        <i class="icon nalika-folder" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="notification-content">
+                                                                        <span class="notification-date">16 Sept</span>
+                                                                        <h2>Victor Jara</h2>
+                                                                        <p>Please done this project as soon possible.</p>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <div class="notification-icon">
+                                                                        <i class="icon nalika-bar-chart" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="notification-content">
+                                                                        <span class="notification-date">16 Sept</span>
+                                                                        <h2>Victor Jara</h2>
+                                                                        <p>Please done this project as soon possible.</p>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                        <div class="notification-view">
+                                                            <a href="#">View All Notification</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="nav-item">
+                                                    <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
+															<i class="icon nalika-user"></i>
+                                                            <span class="admin-name">Logout</span>
+                                                        <!--
+                                                            <i class="icon nalika-down-arrow nalika-angle-dw"></i>
+                                                        -->
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile Menu start -->
+            <div class="mobile-menu-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="mobile-menu">
+                                <nav id="dropdown">
+                                    <ul class="mobile-menu-nav">
+                                        <li><a data-toggle="collapse" data-target="#Charts" href="#">Home <span class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
+                                            <ul class="collapse dropdown-header-top">
+                                                <li><a href="index.html">Dashboard v.1</a></li>
+                                                <li><a href="index-1.html">Dashboard v.2</a></li>
+                                                <li><a href="index-3.html">Dashboard v.3</a></li>
+                                                <li><a href="product-list.html">Product List</a></li>
+                                                <li><a href="product-edit.html">Product Edit</a></li>
+                                                <li><a href="product-detail.html">Product Detail</a></li>
+                                                <li><a href="product-cart.html">Product Cart</a></li>
+                                                <li><a href="product-payment.html">Product Payment</a></li>
+                                                <li><a href="analytics.html">Analytics</a></li>
+                                                <li><a href="widgets.html">Widgets</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#demo" href="#">Mailbox <span class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
+                                            <ul id="demo" class="collapse dropdown-header-top">
+                                                <li><a href="mailbox.html">Inbox</a>
+                                                </li>
+                                                <li><a href="mailbox-view.html">View Mail</a>
+                                                </li>
+                                                <li><a href="mailbox-compose.html">Compose Mail</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#others" href="#">Miscellaneous <span class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
+                                            <ul id="others" class="collapse dropdown-header-top">
+                                                <li><a href="file-manager.html">File Manager</a></li>
+                                                <li><a href="contacts.html">Contacts Client</a></li>
+                                                <li><a href="projects.html">Project</a></li>
+                                                <li><a href="project-details.html">Project Details</a></li>
+                                                <li><a href="blog.html">Blog</a></li>
+                                                <li><a href="blog-details.html">Blog Details</a></li>
+                                                <li><a href="404.html">404 Page</a></li>
+                                                <li><a href="500.html">500 Page</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#Miscellaneousmob" href="#">Interface <span class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
+                                            <ul id="Miscellaneousmob" class="collapse dropdown-header-top">
+                                                <li><a href="google-map.html">Google Map</a>
+                                                </li>
+                                                <li><a href="data-maps.html">Data Maps</a>
+                                                </li>
+                                                <li><a href="pdf-viewer.html">Pdf Viewer</a>
+                                                </li>
+                                                <li><a href="x-editable.html">X-Editable</a>
+                                                </li>
+                                                <li><a href="code-editor.html">Code Editor</a>
+                                                </li>
+                                                <li><a href="tree-view.html">Tree View</a>
+                                                </li>
+                                                <li><a href="preloader.html">Preloader</a>
+                                                </li>
+                                                <li><a href="images-cropper.html">Images Cropper</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#Chartsmob" href="#">Charts <span class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
+                                            <ul id="Chartsmob" class="collapse dropdown-header-top">
+                                                <li><a href="bar-charts.html">Bar Charts</a>
+                                                </li>
+                                                <li><a href="line-charts.html">Line Charts</a>
+                                                </li>
+                                                <li><a href="area-charts.html">Area Charts</a>
+                                                </li>
+                                                <li><a href="rounded-chart.html">Rounded Charts</a>
+                                                </li>
+                                                <li><a href="c3.html">C3 Charts</a>
+                                                </li>
+                                                <li><a href="sparkline.html">Sparkline Charts</a>
+                                                </li>
+                                                <li><a href="peity.html">Peity Charts</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#Tablesmob" href="#">Tables <span class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
+                                            <ul id="Tablesmob" class="collapse dropdown-header-top">
+                                                <li><a href="static-table.html">Static Table</a>
+                                                </li>
+                                                <li><a href="data-table.html">Data Table</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#formsmob" href="#">Forms <span class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
+                                            <ul id="formsmob" class="collapse dropdown-header-top">
+                                                <li><a href="basic-form-element.html">Basic Form Elements</a>
+                                                </li>
+                                                <li><a href="advance-form-element.html">Advanced Form Elements</a>
+                                                </li>
+                                                <li><a href="password-meter.html">Password Meter</a>
+                                                </li>
+                                                <li><a href="multi-upload.html">Multi Upload</a>
+                                                </li>
+                                                <li><a href="tinymc.html">Text Editor</a>
+                                                </li>
+                                                <li><a href="dual-list-box.html">Dual List Box</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#Appviewsmob" href="#">App views <span class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
+                                            <ul id="Appviewsmob" class="collapse dropdown-header-top">
+                                                <li><a href="basic-form-element.html">Basic Form Elements</a>
+                                                </li>
+                                                <li><a href="advance-form-element.html">Advanced Form Elements</a>
+                                                </li>
+                                                <li><a href="password-meter.html">Password Meter</a>
+                                                </li>
+                                                <li><a href="multi-upload.html">Multi Upload</a>
+                                                </li>
+                                                <li><a href="tinymc.html">Text Editor</a>
+                                                </li>
+                                                <li><a href="dual-list-box.html">Dual List Box</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#Pagemob" href="#">Pages <span class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
+                                            <ul id="Pagemob" class="collapse dropdown-header-top">
+                                                <li><a href="login.html">Login</a>
+                                                </li>
+                                                <li><a href="register.html">Register</a>
+                                                </li>
+                                                <li><a href="lock.html">Lock</a>
+                                                </li>
+                                                <li><a href="password-recovery.html">Password Recovery</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile Menu end -->
+
+
+            <div class="breadcome-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="breadcome-list">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div class="breadcomb-wp">
+											<div class="breadcomb-icon">
+												<i class="icon nalika-home"></i>
+											</div>
+											<div class="breadcomb-ctn">
+												<h2>E-SUMMIT'20 Campus Ambassador Dashboard</h2>
+												<p>Welcome to the dashboard. Check your CA score and CA rank here!</p>
+											</div>
+										</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-sales-area mg-tb-30">
+            <h2 style="color: white; text-align: center;">Profile</h2>
+            <br>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                        <div class="product-sales-chart">
+                            <div class="author-widgets-single res-mg-t-30">
+                                <div class="widget-text-box">
+
+                                    <h4>Id&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp; 20ES012</h4>
+                                    <h4>Name&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp; SANDEEP KUMAR</h4>
+                                    <h4>College&nbsp;: &nbsp; ABC Institue of Engineering</h4>
+                                    <h4>City&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp; Bhubaneswar</h4>
+                                    <h4>Score&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp; 47</h4>
+                                    <h4>Rank&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp; 06</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="white-box analytics-info-cs mg-b-30 res-mg-t-30">
+                            <img src="img/blankProfilePic.jpg" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="responsibilities">
+            <h2 style="color: white; text-align: center;">Responsibilities</h2>
+            <div class="product-new-list-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="single-new-trend mg-t-30">
+                                    <img src="img/responsibilities/public.png">
+                                    <h3 style="color:white;text-align:center;">Publicize</h3>
+                                    <p style="color:white;">Promote E-Summit’20 in your college by putting up our posters on the notice boards of your college and by spreading a word about us in group meetings and student gatherings.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="single-new-trend mg-t-30">
+                                    <img src="img/responsibilities/communication.png">
+                                    <br><br><br>
+                                    <h3 style="color:white;text-align:center;">Communicate</h3>
+                                    <p style="color:white;">Share and publicize the events and posters of E-Summit’20 in all forms of social media.</p>
+                                    <br><br>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="single-new-trend mg-t-30">
+                                    <img src="img/responsibilities/Orchestrate.png">
+                                    <h3 style="color:white;text-align:center;">Orchestrate</h3>
+                                    <p style="color:white;">Plan and organize an event called Entrepreneurial Ideation in your campus with support of team E-Summit’20.
+                                            Send the details of E-Cell and start-ups in the E-Cell of their campus.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="single-new-trend mg-t-30">
+                                    <img src="img/responsibilities/promote.png">
+                                    <br>
+                                    <h3 style="color:white;text-align:center;">Promote</h3>
+                                    <p style="color:white;">Ensure enthusiastic participation of your college in the three-day event E-Summit’20.</p>
+                                    <br><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="posts">
+                <br><br>
+                <h2 style="color: white; text-align: center;">Recent Facebook Posts</h2>
+            <div class="blog-area mg-tb-15">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="hpanel blog-box mg-t-30">
+                                <div class="panel-heading custom-blog-hd">
+                                    <div class="media clearfix">
+                                        <a class="pull-left">
+                                            <img class="img-circle" src="img/contact/1.jpg" alt="profile-picture">
+                                        </a>
+                                        <div class="media-body blog-std">
+                                            <p>Created by: <span class="font-bold">Smith</span> </p>
+                                            <p class="text-muted">21.03.2015</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel-body blog-pra">
+                                    <div class="blog-img">
+                                        <img src="img/cropper/1.jpg" alt="" />
+                                        <a href="blog_details.html">
+                                            <h4>TIPS FOR BEAUTY</h4>
+                                        </a>
+                                    </div>
+                                    <p>
+                                        There are many variations of the passages of Lorem Ipsum onece available, but the majority have suffered alteration in some form, by injected humour...
+                                    </p>
+                                </div>
+                                <div class="panel-footer">
+                                    <span class="pull-right"><i class="fa fa-comments-o"> </i> 22 comments</span>
+                                    <i class="fa fa-eye"> </i> 142 views
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="hpanel blog-box mg-t-30 responsive-mg-b-0">
+                                <div class="panel-heading custom-blog-hd">
+                                    <div class="media clearfix">
+                                        <a class="pull-left">
+                                            <img class="img-circle" src="img/contact/2.jpg" alt="profile-picture">
+                                        </a>
+                                        <div class="media-body blog-std">
+                                            <p>Created by: <span class="font-bold">Smith</span> </p>
+                                            <p class="text-muted">21.03.2015</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel-body blog-pra">
+                                    <div class="blog-img">
+                                        <img src="img/cropper/1.jpg" alt="" />
+                                        <a href="blog_details.html">
+                                            <h4>TIPS FOR BEAUTY</h4>
+                                        </a>
+                                    </div>
+                                    <p>
+                                        There are many variations of the passages of Lorem Ipsum onece available, but the majority have suffered alteration in some form, by injected humour...
+                                    </p>
+                                </div>
+                                <div class="panel-footer">
+                                    <span class="pull-right"><i class="fa fa-comments-o"> </i> 22 comments</span>
+                                    <i class="fa fa-eye"> </i> 142 views
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="hpanel blog-box mg-t-30 responsive-mg-b-0">
+                                <div class="panel-heading custom-blog-hd">
+                                    <div class="media clearfix">
+                                        <a class="pull-left">
+                                                <img class="img-circle" src="img/contact/3.jpg" alt="profile-picture">
+                                            </a>
+                                        <div class="media-body blog-std">
+                                            <p>Created by: <span class="font-bold">Smith</span> </p>
+                                            <p class="text-muted">21.03.2015</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel-body blog-pra">
+                                    <div class="blog-img">
+                                        <img src="img/cropper/1.jpg" alt="" />
+                                        <a href="blog_details.html">
+                                                <h4>TIPS FOR BEAUTY</h4>
+                                        </a>
+                                    </div>
+                                    <p>
+                                        There are many variations of the passages of Lorem Ipsum onece available, but the majority have suffered alteration in some form, by injected humour...
+                                    </p>
+                                </div>
+                                <div class="panel-footer">
+                                    <span class="pull-right"><i class="fa fa-comments-o"> </i> 22 comments</span>
+                                    <i class="fa fa-eye"> </i> 142 views
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="hpanel blog-box mg-t-30">
+                                <div class="panel-heading custom-blog-hd">
+                                    <div class="media clearfix">
+                                        <a class="pull-left">
+                                            <img class="img-circle" src="img/contact/4.jpg" alt="profile-picture">
+                                        </a>
+                                        <div class="media-body blog-std">
+                                            <p>Created by: <span class="font-bold">Smith</span> </p>
+                                            <p class="text-muted">21.03.2015</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel-body blog-pra">
+                                    <div class="blog-img">
+                                        <img src="img/cropper/1.jpg" alt="" />
+                                        <a href="blog_details.html">
+                                            <h4>TIPS FOR BEAUTY</h4>
+                                        </a>
+                                    </div>
+                                    <p>
+                                        There are many variations of the passages of Lorem Ipsum onece available, but the majority have suffered alteration in some form, by injected humour...
+                                    </p>
+                                </div>
+                                <div class="panel-footer">
+                                    <span class="pull-right"><i class="fa fa-comments-o"> </i> 22 comments</span>
+                                    <i class="fa fa-eye"> </i> 142 views
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contactUs">
+            <br><br>
+            <h2 style="color: white; text-align: center;">Contact Us</h2>
+            <br>
+            <div class="author-area-pro">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <div class="personal-info-wrap">
+                                <div class="widget-head-info-box">
+                                    <div class="persoanl-widget-hd">
+                                        <h2>Karthik</h2>
+                                        <p>Chief Co-ordinator E-Summit '20</p>
+                                    </div>
+                                    <img src="img/notification/5.jpg" class="img-circle circle-border m-b-md" alt="profile">
+                                
+                                    <div class="social-widget-result">
+                                        <span>Mobile no: 9999999999</span> ||
+                                        <span>e-mail: abc@iitbbs.ac.in</span>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <div class="author-widgets-single res-mg-t-30">
+                                <div class="author-wiget-inner">
+                                    <div class="perso-img">
+                                        <img src="img/notification/6.jpg" class="img-circle circle-border m-b-md" alt="profile">
+                                    </div>
+                                    <div class="persoanl-widget-hd persoanl1-widget-hd">
+                                        <h2>PPPPPPPPP</h2>
+                                        <p>Publicity Co-ordinator</p>
+                                    </div>
+                                    <div class="social-widget-result social-widget1-result">
+                                        <span>Mobile no: 8888888888</span> ||
+                                        <span>e-mail: def@iitbbs.ac.in</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <div class="personal-info-wrap personal-info-ano res-mg-t-30">
+                                <div class="widget-head-info-box">
+                                    <div class="persoanl-widget-hd">
+                                        <h2>SSSSSSSS</h2>
+                                        <p>Publicity core head</p>
+                                    </div>
+                                    <img src="img/contact/2.jpg" class="img-circle circle-border m-b-md" alt="profile">
+                                    <div class="social-widget-result">
+                                        <span>Mobile No: 7777777777</span> ||
+                                        <span>e-mail: ghi@iitbbs.ac.in</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div> <p></p> <p></p> </div>
+
+        <div class="footer-copyright-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer-copy-right">
+                            <p>Copyright © 2019 <a href="http://www.e-summit-iitbbs.com/">E-Summit '20</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jquery
+		============================================ -->
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <!-- bootstrap JS
+		============================================ -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- wow JS
+		============================================ -->
+    <script src="js/wow.min.js"></script>
+    <!-- price-slider JS
+		============================================ -->
+    <script src="js/jquery-price-slider.js"></script>
+    <!-- meanmenu JS
+		============================================ -->
+    <script src="js/jquery.meanmenu.js"></script>
+    <!-- owl.carousel JS
+		============================================ -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- sticky JS
+		============================================ -->
+    <script src="js/jquery.sticky.js"></script>
+    <!-- scrollUp JS
+		============================================ -->
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <!-- mCustomScrollbar JS
+		============================================ -->
+    <script src="js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/scrollbar/mCustomScrollbar-active.js"></script>
+    <!-- metisMenu JS
+		============================================ -->
+    <script src="js/metisMenu/metisMenu.min.js"></script>
+    <script src="js/metisMenu/metisMenu-active.js"></script>
+    <!-- sparkline JS
+		============================================ -->
+    <script src="js/sparkline/jquery.sparkline.min.js"></script>
+    <script src="js/sparkline/jquery.charts-sparkline.js"></script>
+    <!-- calendar JS
+		============================================ -->
+    <script src="js/calendar/moment.min.js"></script>
+    <script src="js/calendar/fullcalendar.min.js"></script>
+    <script src="js/calendar/fullcalendar-active.js"></script>
+	<!-- float JS
+		============================================ -->
+    <script src="js/flot/jquery.flot.js"></script>
+    <script src="js/flot/jquery.flot.resize.js"></script>
+    <script src="js/flot/curvedLines.js"></script>
+    <script src="js/flot/flot-active.js"></script>
+    <!-- plugins JS
+		============================================ -->
+    <script src="js/plugins.js"></script>
+    <!-- main JS
+		============================================ -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
